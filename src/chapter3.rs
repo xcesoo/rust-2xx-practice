@@ -6,6 +6,7 @@ fn test31() {
 
     assert_eq!(x, 5);
     println!("Success!");
+
 }
 
 #[test]
