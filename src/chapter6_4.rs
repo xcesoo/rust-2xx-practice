@@ -63,7 +63,6 @@ fn test6_4_6()
 
     println!("Success!");
 
-
     fn sum_multiply(nums: (i32, i32)) -> (i32, i32) {
         (nums.0 + nums.1, nums.0 * nums.1)
     }
