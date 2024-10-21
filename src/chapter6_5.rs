@@ -131,7 +131,6 @@ fn test6_5_7()
         width: u32,
         height: u32,
     }
-
         let scale = 2;
         let rect1 = Rectangle
         {
