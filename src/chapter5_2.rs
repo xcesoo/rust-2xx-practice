@@ -128,7 +128,6 @@ fn test5_2_10()
 fn test5_2_11()
 {
         let mut s = String::from("hello, ");
-
         let r1 = &mut s;
         //let r2 = &mut s;
         println!("{}",r1)
