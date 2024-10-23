@@ -11,6 +11,7 @@ mod chapter6_3;
 mod chapter6_4;
 mod chapter6_5;
 mod chapter6_6;
+mod Romb;
 
 fn main() {
     println!("Hello, world!");
