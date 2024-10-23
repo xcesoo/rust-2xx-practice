@@ -13,6 +13,7 @@ mod chapter6_5;
 mod chapter6_6;
 mod Romb;
 mod convert;
+mod Euclidean;
 
 fn main() {
     println!("Hello, world!");
