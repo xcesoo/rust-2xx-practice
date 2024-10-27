@@ -14,6 +14,7 @@ mod chapter6_6;
 mod Romb;
 mod convert;
 mod Euclidean;
+mod Cristmas_Tree;
 
 fn main() {
     println!("Hello, world!");
