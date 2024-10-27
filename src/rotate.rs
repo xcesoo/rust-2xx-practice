@@ -29,7 +29,7 @@ fn rotate(s: String, n: isize) -> String
 {
     let len = s.len() as isize;
     let n = ((n % len) + len) % len;
-    let split_index = (len - n) as usize; // Індекс, де буде розділ
+    let split_index = (len - n) as usize;
     let (left, right) = s.split_at(split_index);
     format!("{}{}", right, left)
 }
