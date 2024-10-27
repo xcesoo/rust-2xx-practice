@@ -7,6 +7,7 @@ fn convert()
     {
         for j in 0..WIDTH
         {
+            /*
             if i==0 || i==HEIGHT-1
             {
                 print!("*");
@@ -23,6 +24,14 @@ fn convert()
             {
                 print!(" ");
             }
+             */
+            print!("{}",
+                   if(i==0 || i==HEIGHT-1) ||
+                       (j == 0 || j== WIDTH-1) ||
+                       (j == i * (WIDTH - 1) / (HEIGHT - 1) || j == (WIDTH - 1) - i * (WIDTH - 1) / (HEIGHT - 1))
+                   {"*"}
+                   else
+                   {" "});
         }
         println!("");
     }
