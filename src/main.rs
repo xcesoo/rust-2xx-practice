@@ -18,6 +18,7 @@ mod Cristmas_Tree;
 mod ascii;
 mod is_prime;
 mod rotate;
+mod palindromic;
 
 fn main() {
     println!("Hello, world!");
