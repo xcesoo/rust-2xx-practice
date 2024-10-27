@@ -20,6 +20,7 @@ mod is_prime;
 mod rotate;
 mod palindromic;
 mod vector;
+mod shipments;
 
 fn main() {
     println!("Hello, world!");
