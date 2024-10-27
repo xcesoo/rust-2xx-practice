@@ -19,6 +19,7 @@ mod ascii;
 mod is_prime;
 mod rotate;
 mod palindromic;
+mod vector;
 
 fn main() {
     println!("Hello, world!");
