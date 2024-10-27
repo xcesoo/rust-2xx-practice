@@ -16,6 +16,7 @@ mod convert;
 mod Euclidean;
 mod Cristmas_Tree;
 mod ascii;
+mod is_prime;
 
 fn main() {
     println!("Hello, world!");
