@@ -15,6 +15,7 @@ mod Romb;
 mod convert;
 mod Euclidean;
 mod Cristmas_Tree;
+mod ascii;
 
 fn main() {
     println!("Hello, world!");
