@@ -21,6 +21,7 @@ mod rotate;
 mod palindromic;
 mod vector;
 mod shipments;
+mod area;
 
 fn main() {
     println!("Hello, world!");
