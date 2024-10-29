@@ -23,6 +23,7 @@ mod vector;
 mod shipments;
 mod area;
 mod gray;
+mod muxaslon;
 
 fn main() {
     println!("Hello, world!");
