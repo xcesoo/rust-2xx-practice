@@ -26,6 +26,7 @@ mod gray;
 mod muxaslon;
 mod chapter7;
 mod chapter8_1;
+mod chapter8_2;
 
 fn main() {
     println!("Hello, world!");
