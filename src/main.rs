@@ -45,6 +45,8 @@ mod hackerrank_TimeConversion_9;
 mod hackerrank_gradingstudents_10;
 mod hackerrank_appleandorange_11;
 mod hackerrank_kangaroo_12;
+mod hackerrank_betweentwosets_13;
+mod hackerrank_breaking_records_14;
 
 fn main() {
     println!("Hello, world!");
