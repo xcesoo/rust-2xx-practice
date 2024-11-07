@@ -29,6 +29,7 @@ mod chapter8_1;
 mod chapter8_2;
 mod chapter9;
 mod chapter10_1;
+mod chapter10_2;
 
 fn main() {
     println!("Hello, world!");
