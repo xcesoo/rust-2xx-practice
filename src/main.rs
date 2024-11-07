@@ -25,6 +25,7 @@ mod area;
 mod gray;
 mod muxaslon;
 mod chapter7;
+mod chapter8_1;
 
 fn main() {
     println!("Hello, world!");
