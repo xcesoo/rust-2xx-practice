@@ -1,5 +1,8 @@
 //https://www.hackerrank.com/challenges/migratory-birds/problem
-
+use std::env;
+use std::fs::File;
+use std::io::{self, BufRead, Write};
+use std::collections::HashMap;
 fn migratoryBirds(arr: &[i32]) -> i32 {
     let mut counts = HashMap::new();
 
