@@ -48,6 +48,7 @@ mod hackerrank_kangaroo_12;
 mod hackerrank_betweentwosets_13;
 mod hackerrank_breaking_records_14;
 mod hackerrank_SubarrayDivision_15;
+mod hackerrank_DivisibleSumPairs_16;
 
 fn main() {
     println!("Hello, world!");
