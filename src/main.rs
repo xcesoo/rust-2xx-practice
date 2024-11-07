@@ -50,6 +50,9 @@ mod hackerrank_breaking_records_14;
 mod hackerrank_SubarrayDivision_15;
 mod hackerrank_DivisibleSumPairs_16;
 mod hackerrank_MigratoryBirds_17;
+mod hackerrank_billdivision_18;
+mod hackerrank_SalesbyMatch_19;
+mod hackerrank_DrawingBook_20;
 
 fn main() {
     println!("Hello, world!");
