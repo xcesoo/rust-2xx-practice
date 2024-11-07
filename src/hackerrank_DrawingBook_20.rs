@@ -1,19 +1,16 @@
 //https://www.hackerrank.com/challenges/drawing-book/problem
 
-fn bonAppetit(bill: &[i32], k: i32, b: i32) {
-    let total: i32 = bill.iter().enumerate()
-        .filter(|&(index, _)| index != k as usize)
-        .map(|(_, &cost)| cost)
-        .sum();
+fn pageCount(n: i32, p: i32) -> i32 {
+    let from_front = p / 2;
 
-    let correct_share = total / 2;
-
-    if correct_share == b
+    let from_back = if n % 2 == 0
     {
-        println!("Bon Appetit");
+        (n - p + 1) / 2
     }
     else
     {
-        println!("{}", b - correct_share);
-    }
+        (n - p) / 2
+    };
+
+    from_front.min(from_back)
 }
