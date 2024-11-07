@@ -39,6 +39,7 @@ mod hackerrank_AVeryBigSum_3;
 mod hackerrank_diagonal_difference_4;
 mod hackerrank_plus_minus_5;
 mod hackerrank_staircase_6;
+mod hackerrank_minimaxsum_7;
 
 fn main() {
     println!("Hello, world!");
