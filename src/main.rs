@@ -33,6 +33,7 @@ mod chapter10_2;
 mod chapter10_3;
 mod chapter10_4;
 mod chapter10_5;
+mod hackerrank_SimpleArraySum_1;
 
 fn main() {
     println!("Hello, world!");
