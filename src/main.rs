@@ -35,6 +35,7 @@ mod chapter10_4;
 mod chapter10_5;
 mod hackerrank_SimpleArraySum_1;
 mod hackerrank_CompareTheTriplets_2;
+mod hackerrank_AVeryBigSum_3;
 
 fn main() {
     println!("Hello, world!");
